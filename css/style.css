@@ -1,6 +1,6 @@
 body{
   color: rgb(0, 0, 255);
-  font-famiy: calibri;
+  font-famiy: verdana;
   margin: 0px;
 }
 div {
@@ -8,7 +8,7 @@ div {
   width: 100vw;
 }
   h1, h2 {
-    text-align: right;
+    text-align: center;
   }
 
 h1{
@@ -24,9 +24,10 @@ img{
   border-radius: 130px;
 }
 p{
-  width: 40%;
+  width: 100%;
   margin: 10vh 10vw;
   font-size: 2em;
+  text-align: center;
 }
 a {
   color: rgb(0,0,0);
@@ -46,7 +47,7 @@ li#lowest {
   margin-top: 14%;
 }
 div.contrast {
-  background-colour: rgb(0,0,255);
+  background-colour: rgb(0,0,0);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
